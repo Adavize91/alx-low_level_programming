@@ -4,7 +4,7 @@
  * reset_to_98 - as parameters and value is set to 98
  * @n: input int
  *
- * return: 0
+ * return: no return
  */
 
 void reset_to_98(int *n)

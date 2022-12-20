@@ -7,7 +7,7 @@
  * Return: no return
  */
 
-int _strlen(char *str)
+void _puts(char *str)
 {
 	int count = 0;
 

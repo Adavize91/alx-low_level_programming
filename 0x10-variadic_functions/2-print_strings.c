@@ -6,8 +6,9 @@
  * @n: number of unnamed parameter
  *
  * Return: Always 0
- */ 
-void print_strings (const char *separator, const unsigned int n, ...)
+ */
+
+void print_strings(const char *separator, const unsigned int n, ...)
 {
 	char *str;
 	unsigned int i;
@@ -21,7 +22,7 @@ void print_strings (const char *separator, const unsigned int n, ...)
 	{
 		str = va_arg(ap, char*);
 		if (str == NULL)
-			str = "(nill)";
+			str = "(nil)";
 		printf("%s", str);
 		if (i < n - 1)
 			printf("%s", separator);
